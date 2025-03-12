@@ -14,6 +14,10 @@ while (heroHealth > 0 && monsterHealth > 0)
     Console.WriteLine($"Hero attacks for: {damage}");
     Console.WriteLine($"Monster's health: {monsterHealth}");
 
+    //Hero might get a 10
+    if (monsterHealth <= 0)
+        break;
+
     //Monster attacks
     damage = dice.Next(1, 10);
     heroHealth -= damage;
