@@ -12,3 +12,4 @@ c:\Users\Instruktor\Desktop\CSharp\RPG\obj\Debug\net9.0\refint\RPG.dll
 c:\Users\Instruktor\Desktop\CSharp\RPG\obj\Debug\net9.0\RPG.pdb
 c:\Users\Instruktor\Desktop\CSharp\RPG\obj\Debug\net9.0\RPG.genruntimeconfig.cache
 c:\Users\Instruktor\Desktop\CSharp\RPG\obj\Debug\net9.0\ref\RPG.dll
+c:\Users\Instruktor\Desktop\CSharp\RPG\obj\Debug\net9.0\RPG.sourcelink.json
