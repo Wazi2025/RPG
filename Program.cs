@@ -4,8 +4,8 @@ int damage = 0;
 
 Random dice = new Random();
 
-//while (heroHealth >= 0 || monsterHealth >= 0)
-while (monsterHealth >= 0)
+while ((heroHealth > 0) || (monsterHealth > 0))
+//while (monsterHealth > 0)
 {
     //Hero attacks
     damage = dice.Next(1, 10);
