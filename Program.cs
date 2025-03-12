@@ -4,8 +4,9 @@ int damage = 0;
 
 Random dice = new Random();
 
-while ((heroHealth > 0) || (monsterHealth > 0))
-//while (monsterHealth > 0)
+//Continue the loop as long as both Hero and Monster
+//health are more than zero
+while (heroHealth > 0 && monsterHealth > 0)
 {
     //Hero attacks
     damage = dice.Next(1, 10);
@@ -13,8 +14,6 @@ while ((heroHealth > 0) || (monsterHealth > 0))
     Console.WriteLine($"Hero attacks for: {damage}");
     Console.WriteLine($"Monster's health: {monsterHealth}");
 
-    if (monsterHealth < 0)
-        continue;
     //Monster attacks
     damage = dice.Next(1, 10);
     heroHealth -= damage;
